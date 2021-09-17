@@ -1,7 +1,7 @@
 :root{
     --color-primary:#00B0FF;
     --color-secondary: #E5E7EB;
-    --color-grey: #9CA3AF;
+    --color-grey: #4e4f52;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;900&display=swap');
@@ -17,8 +17,10 @@ body{
 
 .nav{
     display: inline-block;
+    position: sticky;
+    top: 0 ;
     margin:  0 0.5rem 0.5rem 0.5rem;
-    width: 95vw;
+    width: 99%;
     height:5rem;
     background-color: var(--color-primary);
     padding: 20rem 20rem auto;
@@ -67,4 +69,33 @@ body{
     vertical-align: middle;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
+}
+
+#header{
+    align-content: center;
+}
+
+.img-cont{
+    display: flex;
+    justify-content: center;
+}
+
+#header-img{
+    max-width: 800px;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#header-head span{
+    color: var(--color-primary);
+}
+
+#header-head{
+    color: var(--color-grey);
+    text-align: center;
 }
