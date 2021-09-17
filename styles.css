@@ -24,7 +24,7 @@ body{
     padding: 20rem 20rem auto;
     align-self: center;
     vertical-align: middle;
-
+    border-radius: 0% 0% 30% 30%;
 }
 
 .list{
