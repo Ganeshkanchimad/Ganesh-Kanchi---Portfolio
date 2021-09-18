@@ -117,6 +117,7 @@ body{
 #header-head{
     color: var(--color-grey);
     text-align: center;
+    margin-top: 0;
 }
 
 .section{
