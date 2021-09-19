@@ -211,3 +211,8 @@ body{
     margin-top: 0.5rem;
     color: var(--color-secondary);
 }
+
+.sec-des-b{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
