@@ -136,7 +136,8 @@ body{
 
 .sec-des{
     padding: 0rem 0 1rem 0;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -213,6 +214,5 @@ body{
 }
 
 .sec-des-b{
-    margin-left: 10%;
-    margin-right: 10%;
+    
 }
