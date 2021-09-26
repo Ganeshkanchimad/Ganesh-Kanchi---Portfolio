@@ -248,6 +248,11 @@ footer{
 .change-color-svg:hover{
     fill: black;
 }
+
+small{
+    display: block;
+    font-weight: 900;
+}
 /* .sec-des-b{
     
 } */
