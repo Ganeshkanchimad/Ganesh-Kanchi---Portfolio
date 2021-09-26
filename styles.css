@@ -245,7 +245,9 @@ footer{
     height: 6vh;
 }
 
-
+.change-color-svg:hover{
+    fill: black;
+}
 /* .sec-des-b{
     
 } */
