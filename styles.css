@@ -164,7 +164,7 @@ body{
 
 #foot{
     margin-top: 1.5rem;
-    padding: 0.5rem 2rem 1.5rem 2rem;
+    padding: 0.5rem 2rem 1rem 2rem;
     bottom: 0;
     background-color: var(--color-primary);
     border-radius: 35px 35px 0 0;
@@ -180,7 +180,7 @@ body{
     padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
-#foot-head{
+#footer-head{
     margin-block-start: 0.25em;
     margin-block-end: 0.25em;
     color: white;
@@ -217,7 +217,7 @@ body{
 }
 
 #footer-head{
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 #footer-ul{
