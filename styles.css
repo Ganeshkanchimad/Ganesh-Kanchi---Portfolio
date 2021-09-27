@@ -200,8 +200,8 @@ body{
 }
 
 .blog{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5vw;
+    margin-right: 5vw;
     text-align: start;
 }
 
@@ -301,4 +301,16 @@ small{
     #code-format{
         font-size: smaller;
     }
+  }
+
+  .blog-list{
+      align-content: center;
+      list-style-position: inside;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  .blog-list-item{
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
   }
