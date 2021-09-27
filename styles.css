@@ -261,3 +261,38 @@ small{
     background-color: #5758582f;
     border-radius: 50px;
 }
+
+@media only screen and (min-width: 1000px) {
+    h3.nav{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    nav {
+      font-size: small;
+    }
+    .blog {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #code-format{
+        font-size: x-small;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 400px) {
+    nav {
+      font-size: smaller;
+    }
+    body {
+        font-size: small;
+        font-weight: 900;
+    }
+    #code-format{
+        font-size: smaller;
+    }
+  }
