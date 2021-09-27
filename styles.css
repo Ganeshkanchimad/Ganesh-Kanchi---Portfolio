@@ -280,6 +280,9 @@ small{
     #code-format{
         font-size: xx-small;
     }
+    #header-img-2{
+        max-width: 60vw;
+    }
   }
 
   
