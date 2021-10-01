@@ -329,3 +329,7 @@ small{
   p.sec-des{
     margin-block-start: 0em;
   }
+
+  .small-des{
+      padding-bottom: 1rem;
+  }
