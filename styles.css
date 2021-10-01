@@ -109,8 +109,8 @@ body{
     text-align: center;
     /* margin-left: 15vw;
     margin-right: 15vw; */
-    width: 70vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
 }
 
 #header-img-2{
@@ -299,6 +299,7 @@ small{
         margin-right: 1rem;
         margin-left: 1rem;
     }
+    
   }
 
 @media only screen and (max-width: 600px) {
@@ -332,10 +333,10 @@ small{
     }
   }
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .video-embed {   
         width: 50vw;
-        height: 30vh;
+        height: 40vh;
     }
   }
 
