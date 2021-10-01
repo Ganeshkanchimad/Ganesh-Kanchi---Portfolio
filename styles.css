@@ -335,7 +335,7 @@ small{
   @media only screen and (min-width: 600px) {
     .video-embed {   
         width: 50vw;
-        height: 50vh;
+        height: 30vh;
     }
   }
 
