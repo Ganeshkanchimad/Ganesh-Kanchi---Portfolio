@@ -110,7 +110,7 @@ body{
     /* margin-left: 15vw;
     margin-right: 15vw; */
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
 }
 
 #header-img-2{
@@ -335,8 +335,8 @@ small{
 
   @media only screen and (max-width: 600px) {
     .video-embed {   
-        width: 70vw;
-        height: 30vh;
+        width: 71vw;
+        height: 40vh;
     }
   }
 
@@ -369,3 +369,4 @@ small{
       padding-bottom: 1rem;
   }
 
+  <iframe width="853" height="480" src="https://www.youtube.com/embed/Ezk2AwqgS9Q?list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
