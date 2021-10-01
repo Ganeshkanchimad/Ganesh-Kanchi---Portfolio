@@ -102,6 +102,16 @@ body{
     justify-content: center;
 }
 
+.video-embed{
+    align-self: center;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    /* margin-left: 15vw;
+    margin-right: 15vw; */
+    width: 70vw;
+    height: 60vh;
+}
 
 #header-img-2{
     max-width: 40vw;
@@ -322,6 +332,13 @@ small{
     }
   }
 
+  @media only screen and (min-width: 600px) {
+    .video-embed {   
+        width: 50vw;
+        height: 50vh;
+    }
+  }
+
   .blog-list{
       align-content: center;
       list-style-position: inside;
@@ -350,3 +367,4 @@ small{
   .small-des{
       padding-bottom: 1rem;
   }
+
