@@ -19,7 +19,9 @@ body{
     width: 100%;
 }
 
-
+.nav a:hover{
+    color: black;
+}
 
 .nav{
     display: flex;
