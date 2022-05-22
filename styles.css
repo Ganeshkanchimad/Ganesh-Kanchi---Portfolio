@@ -1,5 +1,5 @@
-:root{
-    --color-primary:#00B0FF;
+:root {
+    --color-primary: #00B0FF;
     --color-secondary: #e0e0e0;
     --color-grey: #4e4f52;
 }
@@ -10,7 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
-body{
+body {
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
@@ -19,18 +19,18 @@ body{
     width: 100%;
 }
 
-.nav a:hover{
+.nav a:hover {
     color: black;
 }
 
-.nav{
+.nav {
     display: flex;
     position: sticky;
-    top: 0 ;
+    top: 0;
     margin: 0 0 0 0;
     right: 2rem;
     left: 2rem;
-    height:5rem;
+    height: 5rem;
     background-color: var(--color-primary);
     padding: 20rem 20rem auto;
     align-self: center;
@@ -38,13 +38,13 @@ body{
     border-radius: 0 0 35px 35px;
 }
 
-.list{
+.list {
     display: inline;
     list-style: none;
     position: absolute;
     right: 0rem;
     top: 2rem;
-    margin: 2rem 1rem auto ;
+    margin: 2rem 1rem auto;
     vertical-align: middle;
     margin-block-start: 0.25rem;
     margin-block-end: 0;
@@ -52,15 +52,16 @@ body{
 }
 
 
-.list-item{
+.list-item {
 
-    display:inline;
+    display: inline;
     text-align: left;
     margin: 0.50rem 0.25rem 0.25rem 0.25rem;
-    
+
 }
 
-.list-link,.link{
+.list-link,
+.link {
     text-decoration: none;
     color: white;
     text-align: left;
@@ -69,12 +70,12 @@ body{
     font-weight: 300;
 }
 
-#list-link-active{
+#list-link-active {
     font-size: xx-large;
     font-weight: 900;
 }
 
-#brand-tag{
+#brand-tag {
     color: white;
     margin: 0.25rem 0.5rem 0.5rem 0.5rem;
     display: inline-block;
@@ -84,16 +85,16 @@ body{
     font-size: xx-large;
 }
 
-#header{
+#header {
     align-content: center;
 }
 
-.img-cont{
+.img-cont {
     display: flex;
     justify-content: center;
 }
 
-#header-img{
+#header-img {
     max-width: 80vw;
     align-content: center;
     align-self: center;
@@ -104,18 +105,16 @@ body{
     justify-content: center;
 }
 
-.video-embed{
+.video-embed {
     align-self: center;
     margin: auto;
     align-content: center;
     text-align: center;
-    /* margin-left: 15vw;
-    margin-right: 15vw; */
     width: 50vw;
     height: 60vh;
 }
 
-#header-img-2{
+#header-img-2 {
     max-width: 40vw;
     align-content: center;
     align-self: center;
@@ -126,46 +125,47 @@ body{
     justify-content: center;
 }
 
-#header-head span{
+#header-head span {
     color: var(--color-primary);
 }
 
-#header-head{
+#header-head {
     color: var(--color-grey);
     text-align: center;
     margin-top: 0;
 }
 
-.section{
+.section {
     border-radius: 35px;
     text-align: center;
     margin: 0 0.5rem 0 0.5rem;
 }
 
-.sec-head{
+.sec-head {
     color: var(--color-primary);
     padding: 1rem 0 1rem 0;
 }
 
-.a{
+.a {
     background-color: var(--color-secondary);
     margin-bottom: 1rem;
 }
 
-.b{
+.b {
     box-sizing: border-box;
     border: 4px solid var(--color-primary);
     padding-bottom: 2rem;
 }
 
-.sec-des{
+.sec-des {
     padding: 0rem 0 1rem 0;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 
-.link,.link-1{
+.link,
+.link-1 {
     padding: 0.5rem 0.5rem;
     background-color: #00B0FF;
     border: 4px solid var(--color-primary);
@@ -173,27 +173,25 @@ body{
     box-sizing: border-box;
 }
 
-.link-2{
+.link-2 {
     background-color: var(--color-secondary);
     border: 4px solid var(--color-primary);
     color: var(--color-primary);
-    /* padding: 0.5rem 0.5rem; */
     box-sizing: border-box;
 }
 
-.link-2s{
+.link-2s {
     background-color: var(--color-secondary);
     border: 4px solid var(--color-primary);
     color: var(--color-primary);
-    /* padding: 0.5rem 0.5rem; */
     box-sizing: border-box;
 }
 
-#sec-2{
+#sec-2 {
     padding-bottom: 2rem;
 }
 
-#foot{
+#foot {
     margin-top: 1.5rem;
     padding: 0.5rem 2rem 1rem 2rem;
     bottom: 0;
@@ -202,56 +200,55 @@ body{
     text-align: center;
 }
 
-.link-f{
+.link-f {
     text-decoration: none;
     color: white;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    /* margin: 1rem 1rem 2rem 2rem; */
     padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
-#footer-head{
+#footer-head {
     margin-block-start: 0.25em;
     margin-block-end: 0.25em;
     color: white;
     font-weight: 900;
 }
 
-.sec-head-2{
+.sec-head-2 {
     color: var(--color-primary);
     padding: 1rem 0 0rem 0;
     margin-block-end: 0em;
 }
 
-.blog-des{
+.blog-des {
     padding: 0rem 0 1rem 0;
-    margin-right: 15% ;
+    margin-right: 15%;
     margin-left: 15%;
 }
 
-.blog{
+.blog {
     margin-left: 15vw;
     margin-right: 15vw;
     text-align: start;
 }
 
-#blog-header{
+#blog-header {
     margin-top: 10%;
     margin-bottom: 7%;
 }
 
-#copyright{
+#copyright {
     margin-bottom: 1rem;
     margin-top: 0.5rem;
     color: var(--color-secondary);
 }
 
-#footer-head{
+#footer-head {
     margin-bottom: 0.25rem;
 }
 
-#footer-ul{
+#footer-ul {
     display: inline-block;
     list-style-type: none;
     margin-block-start: 0;
@@ -263,111 +260,128 @@ body{
 }
 
 
-.footer-li{
+.footer-li {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-footer{
+footer {
     font-weight: 500;
     color: white;
 }
 
-.change-color-svg{
+.change-color-svg {
     fill: rgb(255, 255, 255);
     height: 6vh;
 }
 
-.change-color-svg:hover{
+.change-color-svg:hover {
     fill: black;
 }
 
-small{
+small {
     display: block;
     font-weight: 900;
 }
-/* .sec-des-b{
-    
-} */
 
-#code-format{
+#code-format {
     background-color: #5758582f;
     border-radius: 50px;
 }
 
 @media only screen and (min-width: 1000px) {
-    h3.nav{
+    h3.nav {
         margin-right: 1rem;
         margin-left: 1rem;
     }
-    
-  }
+
+}
 
 @media only screen and (max-width: 600px) {
     nav {
-      font-size: small;
+        font-size: small;
     }
+
     .blog {
         margin-left: 5%;
         margin-right: 5%;
     }
-    #code-format{
+
+    #code-format {
         font-size: xx-small;
     }
-    #header-img-2{
+
+    #header-img-2 {
         max-width: 75vw;
     }
-  }
+}
 
-  
 
-  @media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 400px) {
     nav {
-      font-size: smaller;
+        font-size: smaller;
     }
+
     body {
         font-size: small;
         font-weight: 900;
     }
-    #code-format{
+
+    #code-format {
         font-size: smaller;
     }
-  }
+}
 
-  @media only screen and (max-width: 600px) {
-    .video-embed {   
+@media only screen and (max-width: 600px) {
+    .video-embed {
         width: 71vw;
         height: 40vh;
     }
-  }
+}
 
-  .blog-list{
-      align-content: center;
-      list-style-position: inside;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-  }
+.blog-list {
+    align-content: center;
+    list-style-position: inside;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
-  .blog-list-item{
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-  }
+.blog-link {
+    color: black;
+}
 
-  .sec-head-link{
-      text-decoration: none;
-  }
+.blog-link:hover {
+    color: var(--color-primary);
+}
 
-  .sec-head{
+.blog-link:active {
+    color: violet;
+}
+
+.blog-link:visited {
+    color: violet;
+}
+
+.blog-list-item {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sec-head-link {
+    text-decoration: none;
+}
+
+.sec-head {
     margin-block-start: 0.83em;
     margin-block-end: 0em;
-  }
+}
 
-  p.sec-des{
+p.sec-des {
     margin-block-start: 0em;
-  }
+}
 
-  .small-des{
-      padding-bottom: 1rem;
-  }
-
+.small-des {
+    padding-bottom: 1rem;
+}
